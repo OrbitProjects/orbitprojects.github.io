@@ -2,6 +2,110 @@ body {
   font-family: Kollektif;
 }
 
+#logo {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 12.5px;
+  left: 12.5px;
+}
+
+.ib {
+  display: inline-block;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 75px;
+  background-color: white;
+  box-shadow: 0 5px 15px -5px #00000070;
+  border-radius: 0 0 30px 30px;
+}
+
+button {
+  margin-left: 100px;
+  font-family: Kollektif;
+  background-color: white;
+  border: 5px solid #D8D8D8;
+  border-radius: 10px;
+  outline: none;
+  font-size: 50px;
+  padding: 8px;
+  position: relative;
+  top: -100px;
+  transition-duration: 200ms;
+}
+
+button:hover {
+  background-color: #443E3E;
+  color: white;
+  border: 5px solid #443E3E;
+  transform: scale(1.025);
+}
+
+.orange {
+  margin-left: 100px;
+  height: 100px;
+  width: 100px;
+  border-radius: 45px;
+  background-image: linear-gradient(#F3845C, #FEB958);
+}
+
+.green {
+  margin-left: 100px;
+  height: 200px;
+  width: 100px;
+  border-radius: 45px;
+  background-image: linear-gradient(#38DC9C, #20876F);
+}
+
+.line {
+  position: relative;
+  top: -100px;
+  margin-left: 100px;
+  height: 10px;
+  width: 62.5vw;
+  border-radius: 3px;
+  background-color: #31a6ff;
+}
+
+
+h1 {
+  margin-left: 100px;
+  color: #686868;
+  font-size: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @font-face {
   font-family: Kollektif;
   src: url(font/Kollektif.ttf);
