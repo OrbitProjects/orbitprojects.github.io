@@ -89,6 +89,9 @@ h3 {
   color: #31a6ff;
 }
 
+.lh {
+  line-height: 0px;
+}
 .space {
   width: 10px;
 }
