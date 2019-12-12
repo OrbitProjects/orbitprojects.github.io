@@ -67,6 +67,32 @@ body {
   background-image: linear-gradient(#F3845C, #FEB958);
 }
 
+.home {
+  font-size:25px;
+  position: relative;
+  top:-2px;
+  text-decoration: none;
+  color: black;
+  transition-duration: 300ms;
+}
+
+.container {
+  text-align: center;
+}
+
+h3 {
+  font-size: 65px;
+  color: ;
+}
+
+.home:hover {
+  color: #31a6ff;
+}
+
+.space {
+  width: 10px;
+}
+
 .green {
   margin-left: 100px;
   height: 200px;
