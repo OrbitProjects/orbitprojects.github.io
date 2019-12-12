@@ -93,6 +93,10 @@ body {
   background-color: #31a6ff;
 }
 
+.text {
+  height: 200px;
+}
+
 
 h1 {
   color: #686868;
