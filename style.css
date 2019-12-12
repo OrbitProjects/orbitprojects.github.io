@@ -1,0 +1,8 @@
+body {
+  font-family: Kollektif;
+}
+
+@font-face {
+  font-family: Kollektif;
+  src: url(font/Kollektif.ttf);
+}
