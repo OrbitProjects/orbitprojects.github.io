@@ -111,9 +111,10 @@ h3 {
   display: block;
   transition-duration: 200ms;
   margin: 0 auto;
+  float: right;
+  margin-right: 5px;
   position: relative;
   top: 4px;
-  right: -290px;
   width: 65px;
   text-decoration: none;
 }
@@ -448,6 +449,10 @@ h3 {
 
 .column2 {
   flex: 33.33%;
+}
+
+.column8 {
+  flex: 100%;
 }
 
 .product-title {
