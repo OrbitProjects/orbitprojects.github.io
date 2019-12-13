@@ -107,6 +107,10 @@ h3 {
   margin-right: 100px;
 }
 
+.everest-font {
+  font-family: 'Rubik', sans-serif !important;
+}
+
 /* Header */
 
 .header {
