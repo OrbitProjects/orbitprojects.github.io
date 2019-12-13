@@ -284,6 +284,10 @@ h1 {
     display: inline-block !important;
     float: none !important;
   }
+
+  .footer {
+    border-radius: 0px 0px 30px 30px;
+  }
 }
 
 @media screen and (max-width: 1300px) {
