@@ -32,6 +32,19 @@ h3 {
   text-align: center;
 }
 
+.containerRight {
+  text-align: right;
+}
+
+.example-feature-image {
+  width: 40vw;
+  height: 25vw;
+}
+
+.feature-small-text {
+  font-size: 5vw;
+}
+
 .button {
   font-family: Kollektif;
   background-color: white;
@@ -44,9 +57,42 @@ h3 {
   display: block;
   top: -100px;
   transition-duration: 200ms;
+  width: 260px;
+  text-decoration: none;
+  color: black;
 }
 
 .button:hover {
+  background-color: #443E3E;
+  color: white;
+  border: 5px solid #443E3E;
+  transform: scale(1.025);
+}
+
+.button2 {
+  font-family: Kollektif;
+  background-color: white;
+  color: #5084DA;
+  border: 5px solid #5084DA;
+  border-radius: 10px;
+  outline: none;
+  font-size: 50px;
+  padding: 8px;
+  display: block;
+  transition-duration: 200ms;
+  margin: 0 auto;
+  position: relative;
+  top: -25px;
+  width: 85px;
+  text-decoration: none;
+}
+
+.example-image {
+  width: 67.5vw;
+  height: 40vw;
+}
+
+.button2:hover {
   background-color: #443E3E;
   color: white;
   border: 5px solid #443E3E;
@@ -284,6 +330,15 @@ h3 {
 
 .homepage-button {
   border-radius:10px 10px 0 0;
+}
+
+.title-text {
+  margin-top: 7.5vw;
+  font-size: 4vw;
+}
+
+.feature-text {
+  margin-left: 100px;
 }
 
 /* Spaces */
