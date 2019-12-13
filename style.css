@@ -413,15 +413,10 @@ input:checked[type="checkbox"]:before {
 
 /* Font */
 
-#Quote {
+#quoteText {
   font-size: 1.5vw;
-  position: absolute;
   margin-left: auto;
   margin-right: auto;
-  left: 0;
-  right: 0;
-  bottom: -50px;
-  line-height: 15px;
 }
 
 #QuoteAuthor {
@@ -431,7 +426,7 @@ input:checked[type="checkbox"]:before {
 
 .floatUp {
   animation: floatUp 0.5s;
-  transform: translateY(-50px);
+  transform: translateY(-25px);
 }
 
 .floatDown {
@@ -455,7 +450,7 @@ input:checked[type="checkbox"]:before {
   }
 
   100% {
-    transform: translateY(-50px);
+    transform: translateY(-25px);
   }
 }
 

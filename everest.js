@@ -92,8 +92,8 @@ if (randomNumber == 0) {
   document.getElementById("QuoteAuthor").innerText = "Aesop";
 }
 
-document.getElementById('quoteText').addEventListener('mouseover', showAuthor);
-document.getElementById('quoteText').addEventListener('mouseout', hideAuthor);
+document.getElementById('Quote').addEventListener('mouseover', showAuthor);
+document.getElementById('Quote').addEventListener('mouseout', hideAuthor);
 
 function showAuthor() {
   document.getElementById('quoteText').classList.add("floatUp");
