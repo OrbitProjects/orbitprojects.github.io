@@ -195,6 +195,7 @@ h3 {
   top:3.5px;
   font-size: 45px;
   transition-duration: 200ms;
+  outline: none;
 }
 
 .dropdownmenuicon:hover {
