@@ -109,12 +109,16 @@ h3 {
 
 #WIcon {
   display: inline;
-  font-size: 2.5vw;
+  font-size: 6vw;
 }
 
 #WDeg {
   display: inline;
-  font-size: 3.5vw;
+  font-size: 8vw;
+}
+
+#WLabel {
+  font-size: 2vw;
 }
 
 .everest-font {
@@ -239,6 +243,38 @@ h3 {
   width: 100px;
   border-radius: 45px;
   background-image: linear-gradient(#31c7ff, #31a6ff);
+}
+
+.side-orange {
+  margin-right: 200px;
+  height: 100px;
+  width: 250px;
+  border-radius: 45px;
+  background-image: linear-gradient(to right, #F3845C , #FEB958);
+}
+
+.side-grey {
+  margin-left: 200px;
+  height: 100px;
+  width: 250px;
+  border-radius: 45px;
+  background-image: linear-gradient(to right, #34495E, #212F3D);
+}
+
+.side-green {
+  margin-left: 200px;
+  height: 100px;
+  width: 250px;
+  border-radius: 45px;
+  background-image: linear-gradient(to right, #38DC9C, #20876F);
+}
+
+.side-blue {
+  margin-right: 200px;
+  height: 100px;
+  width: 250px;
+  border-radius: 45px;
+  background-image: linear-gradient(to right, #31c7ff, #31a6ff);
 }
 
 .purpletext {
