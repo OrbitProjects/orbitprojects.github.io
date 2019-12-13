@@ -28,9 +28,9 @@
         <a href="orbitnewtab.html" class="orbitnewtab-button">Orbit New-tab</a>
       </div>
     </div>
-   <a class="fas fa-home home" href="index.html"></a>
-   <div class="nav-space13 ib"></div>
-   <a class="fab fa-instagram instagram" href="https://www.instagram.com/orbitprojects.official/" target="_blank"></a>
+    <a class="fas fa-home home" href="index.html"></a>
+    <div class="nav-space13 ib"></div>
+    <a class="fab fa-instagram instagram" href="https://www.instagram.com/orbitprojects.official/" target="_blank"></a>
   </div>
   <div class="head">
     <div class="container">
@@ -57,7 +57,11 @@
       <div class="liveTimeDate ib">
         <div class="row">
           <div class="column">
-            <input type="checkbox" id="displaySearchBox">
+            <input type="checkbox" checked id="displaySearchBox">
+            <h1 id="timeDisplay"></h1>
+            <h2 id="dateDisplay"></h2>
+            <!--Clock And Date, Off - Big Clock, On Small Clock-->
+            <div></div>
           </div>
           <div class="column">
             <p id="timeDisplay"></p>
@@ -72,7 +76,13 @@
       <div class="liveWeather ib">
         <div class="row">
           <div class="column">
-            <input type="checkbox" id="displayWeather">
+            <input type="checkbox" checked id="displayWeather">
+            <div class="WeatherContainer" id="WeatherContainer">
+              <i id="WIcon"></i>
+              <p id="WDeg"></p>
+              <br />
+              <p id="WLabel"></p>
+            </div>
           </div>
           <div class="column">
             <div class="WeatherContainer" id="WeatherContainer">
@@ -104,6 +114,7 @@
     <br>
   </div>
   <script src="script.js" charset="utf-8"></script>
+  <script src="everest.js" charset="utf-8"></script>
 </body>
 
 </html>
