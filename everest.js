@@ -96,15 +96,15 @@ document.getElementById('Quote').addEventListener('mouseover', showAuthor);
 document.getElementById('Quote').addEventListener('mouseout', hideAuthor);
 
 function showAuthor() {
-  document.getElementById('quoteText').classList.add("floatUp");
-  document.getElementById('quoteText').classList.remove("floatDown");
+  document.getElementById('Quote').classList.add("floatUp");
+  document.getElementById('Quote').classList.remove("floatDown");
   document.getElementById('QuoteAuthor').classList.add("quoteAuthorAppear");
   document.getElementById('QuoteAuthor').classList.remove("quoteAuthorFade");
 }
 
 function hideAuthor() {
-  document.getElementById('quoteText').classList.remove("floatUp");
-  document.getElementById('quoteText').classList.add("floatDown");
+  document.getElementById('Quote').classList.remove("floatUp");
+  document.getElementById('Quote').classList.add("floatDown");
   document.getElementById('QuoteAuthor').classList.remove("quoteAuthorAppear");
   document.getElementById('QuoteAuthor').classList.add("quoteAuthorFade");
 }
