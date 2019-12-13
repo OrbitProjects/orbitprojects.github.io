@@ -289,25 +289,14 @@ h3 {
   width: 15px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Font */
 
 @font-face {
   font-family: Kollektif;
   src: url(font/Kollektif.ttf);
 }
+
+/* Media Queries */
 
 @media screen and (max-width: 800px) {
   .column {
