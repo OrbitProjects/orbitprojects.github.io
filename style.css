@@ -200,6 +200,14 @@ h1 {
   font-size: 12vw;
 }
 
+.orbit-newtab {
+  text-align: right;
+}
+
+.check {
+  text-align: left;
+}
+
 
 
 
@@ -218,4 +226,33 @@ h1 {
 @font-face {
   font-family: Kollektif;
   src: url(font/Kollektif.ttf);
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+  }
+
+  .orbit-newtab {
+    text-align: center !important;
+  }
+
+  #Title {
+    margin-right: 0px !important;
+  }
+
+  .style {
+    margin-left: 0px !important;
+  }
+
+  .check {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .button {
+    position: relative;
+    top: -30px;
+  }
 }
