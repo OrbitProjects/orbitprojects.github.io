@@ -192,11 +192,8 @@ h3 {
   border: none;
   background: none;
   position: relative;
-  top:-5px;
-}
-
-.dropdownmenuicon {
-  font-size: 40px;
+  top:3.5px;
+  font-size: 45px;
   transition-duration: 200ms;
 }
 
