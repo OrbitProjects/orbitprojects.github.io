@@ -54,18 +54,42 @@
   <div class="feature-list">
     <h1 class="feature-text">Time & Date</h1>
     <div class="container">
-      <img src="img/timeDate2.png" class="example-feature-image ib" alt="example of everest" style="border-radius:30px;">
-      <img src="img/timeDate.png" class="example-feature-image ib" alt="example of everest" style="border-radius:30px;">
+      <div class="liveTimeDate ib">
+        <div class="row">
+          <div class="column">
+            <input type="checkbox" id="displaySearchBox">
+          </div>
+          <div class="column">
+            <p id="timeDisplay"></p>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="containerRight">
       <h1 class="feature-text marg-right">Weather & Forecast</h1>
     </div>
     <div class="container">
-      <img src="img/weather.png" class="example-feature-image ib" alt="example of everest" style="border-radius:30px;">
+      <div class="liveWeather ib">
+        <div class="row">
+          <div class="column">
+            <input type="checkbox" id="displayWeather">
+          </div>
+          <div class="column">
+            <div class="WeatherContainer" id="WeatherContainer">
+              <i id="WIcon"></i>
+              <p id="WDeg"></p>
+              <br />
+              <p id="WLabel"></p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <h1 class="feature-text">Quote</h1>
     <div class="container">
-      <img src="img/quote.png" class="example-feature-image ib" alt="example of everest" style="border-radius:30px;width:80vw;height:10vw;">
+      <div class="liveQuote ib">
+        <p id="Quote"></p>
+      </div>
     </div>
   </div>
   <br>
