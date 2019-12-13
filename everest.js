@@ -91,7 +91,6 @@ if (randomNumber == 0) {
   document.getElementById("quoteText").innerText = "No act of kindness, no matter how small, is ever wasted.";
   document.getElementById("QuoteAuthor").innerText = "Aesop";
 }
-<<<<<<< HEAD
 
 document.getElementById('quoteText').addEventListener('mouseover', showAuthor);
 document.getElementById('quoteText').addEventListener('mouseout', hideAuthor);
@@ -109,5 +108,3 @@ function hideAuthor() {
   document.getElementById('QuoteAuthor').classList.remove("quoteAuthorAppear");
   document.getElementById('QuoteAuthor').classList.add("quoteAuthorFade");
 }
-=======
->>>>>>> 1a21641c2fdca85b40fdd128dc15d17519539d64
