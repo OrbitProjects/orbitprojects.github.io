@@ -385,6 +385,10 @@ h3 {
     width: 4px;
   }
 
+  .dropdown-content a {
+    padding: 25px 16px;
+  }
+
 }
 
 @media screen and (max-width: 1300px) {
