@@ -69,6 +69,11 @@ h3 {
   transform: scale(1.025);
 }
 
+.example-image {
+  width: 67.5vw;
+  height: 40vw;
+}
+
 .button2 {
   font-family: Kollektif;
   background-color: white;
@@ -87,12 +92,33 @@ h3 {
   text-decoration: none;
 }
 
-.example-image {
-  width: 67.5vw;
-  height: 40vw;
+.button2:hover {
+  background-color: #443E3E;
+  color: white;
+  border: 5px solid #443E3E;
+  transform: scale(1.025);
 }
 
-.button2:hover {
+.button3 {
+  font-family: Kollektif;
+  background-color: #5084DA;
+  color: white;
+  border: 5px solid #5084DA;
+  border-radius: 10px 5px 30px 10px;
+  outline: none;
+  font-size: 40px;
+  padding: 8px;
+  display: block;
+  transition-duration: 200ms;
+  margin: 0 auto;
+  position: relative;
+  top: 4px;
+  right: -290px;
+  width: 65px;
+  text-decoration: none;
+}
+
+.button3:hover {
   background-color: #443E3E;
   color: white;
   border: 5px solid #443E3E;
@@ -411,6 +437,25 @@ h3 {
 .nav-space {
   width: 15px;
 }
+
+.left, .right {
+  width: 50%;
+}
+
+.row2 {
+  display: flex;
+}
+
+.column2 {
+  flex: 33.33%;
+}
+
+.product-title {
+  font-size: 50px;
+  position: relative;
+  top: -70px;
+}
+
 /* Checkbox */
 input[type="checkbox"] {
   position: relative;

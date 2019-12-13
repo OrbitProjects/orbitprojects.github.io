@@ -15,23 +15,30 @@
   <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="fontawesome/css/all.css">
 </head>
-
 <body>
-  <div class="header">
-    <img src="img/op.png" alt="orbit projects logo" class="ib" id="logo">
-    <h2 class="ib" id="OrbitProjectsTitle">Orbit Projects</h2>
-    <div class="nav-space50 ib"></div>
-    <div class="dropdown ib">
-      <button class="dropbtn dropdownmenuicon fas fa-caret-down"></button>
-      <div class="dropdown-content">
-        <a href="index.html" class="homepage-button">Homepage</a>
-        <a href="everest.html" class="everest-button">Everest</a>
-        <a href="orbitnewtab.html" class="orbitnewtab-button">Orbit New-tab</a>
+  <div class="header row2">
+    <div class="column2">
+      <img src="img/op.png" alt="orbit projects logo" class="ib" id="logo">
+      <h2 class="ib" id="OrbitProjectsTitle">Orbit Projects</h2>
+      <div class="nav-space50 ib"></div>
+      <div class="dropdown ib">
+        <button class="dropbtn dropdownmenuicon fas fa-caret-down"></button>
+        <div class="dropdown-content">
+          <a href="index.html" class="homepage-button">Homepage</a>
+          <a href="everest.html" class="everest-button">Everest</a>
+          <a href="orbitnewtab.html" class="orbitnewtab-button">Orbit New-tab</a>
+        </div>
       </div>
+      <a class="fas fa-home home ib" href="index.html"></a>
+      <div class="nav-space13 ib"></div>
+      <a class="fab fa-instagram instagram ib" href="https://www.instagram.com/orbitprojects.official/" target="_blank"></a>
     </div>
-    <a class="fas fa-home home" href="index.html"></a>
-    <div class="nav-space13 ib"></div>
-    <a class="fab fa-instagram instagram" href="https://www.instagram.com/orbitprojects.official/" target="_blank"></a>
+    <div class="column2" style="text-align: center;">
+      <h5 class="product-title">Everest</h5>
+    </div>
+    <div class="column2" style="text-align: right;">
+      <a class="button3 ib" href="https://chrome.google.com/webstore/detail/everest/eemihbgpilllfcbhnhkobfgklfpdiiad" target="_blank">Get</a>
+    </div>
   </div>
   <div class="head">
     <div class="container">
@@ -53,7 +60,7 @@
     <div class="line ib"></div>
   </div>
   <div class="feature-list">
-    <h1 class="feature-text">Time & Date</h1>
+    <h1 class="feature-text anim">Time & Date</h1>
     <div class="container">
       <div class="side-orange ib"></div>
       <div class="liveTimeDate ib">
@@ -65,12 +72,14 @@
       <div class="side-green ib"></div>
     </div>
     <div class="containerRight">
-      <h1 class="feature-text marg-right">Weather & Forecast</h1>
+      <h1 class="feature-text marg-right anim">Weather & Forecast</h1>
     </div>
     <div class="container">
       <div class="side-blue ib"></div>
       <div class="liveWeather ib">
-        <input type="checkbox" checked id="displayWeather" class="ib">
+        <div class="container" style="text-align: center;">
+          <input type="checkbox" checked id="displayWeather">
+        </div>
         <div class="WeatherContainer" id="WeatherContainer">
           <i id="WIcon" class="fas fa-cloud-rain"></i>
           <p id="WDeg" class="everest-font"></p>
@@ -81,7 +90,7 @@
       <div class="side-grey ib"></div>
     </div>
   </div>
-    <h1 class="feature-text">Quote</h1>
+    <h1 class="feature-text anim">Quote</h1>
     <div class="container">
       <div class="liveQuote ib">
         <div id="Quote">
