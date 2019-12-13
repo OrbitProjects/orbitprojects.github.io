@@ -278,6 +278,14 @@ h3 {
   clear: both;
 }
 
+.orbitnewtab-button {
+  border-radius: 0 0 10px 10px;
+}
+
+.homepage-button {
+  border-radius:10px 10px 0 0;
+}
+
 /* Spaces */
 .space {
   width: 10px;
@@ -387,6 +395,14 @@ h3 {
 
   .dropdown-content a {
     padding: 25px 16px;
+  }
+
+  .orbitnewtab-button {
+    border-top: 1px solid grey;
+  }
+
+  .homepage-button {
+    border-bottom: 1px solid grey;
   }
 
 }
