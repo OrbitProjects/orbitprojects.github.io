@@ -410,8 +410,8 @@ h3 {
 }
 
 .title-text {
-  margin-top: 7.5vw;
-  font-size: 4vw;
+  margin-top: 100px;
+  font-size: 75px;
 }
 
 .feature-text {
@@ -666,6 +666,37 @@ input:checked[type="checkbox"]:before {
     border-bottom: 1px solid grey;
   }
 
+  #timeDisplay {
+    font-size: 50px !important;
+  }
+
+  #dateDisplay {
+    font-size: 25px !important;
+  }
+
+  #WIcon {
+    font-size: 40px;
+  }
+
+  #WDeg {
+    font-size: 50px;
+  }
+
+  #WLabel {
+    font-size: 25px;
+  }
+
+  #quoteText {
+    font-size: 25px;
+  }
+
+  #QuoteAuthor {
+    font-size: 15px;
+  }
+
+  .side-blue, .side-green, .side-orange, .side-grey {
+    width: 150px !important;
+  }
 }
 
 @media screen and (max-width: 1300px) {
