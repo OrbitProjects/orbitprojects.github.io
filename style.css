@@ -499,6 +499,11 @@ input:checked[type="checkbox"]:before {
 
 /* Font */
 
+.column9 {
+  text-align: right;
+  width: 0%;
+}
+
 #quoteText {
   font-size: 1.5vw;
   margin-left: auto;
@@ -696,6 +701,16 @@ input:checked[type="checkbox"]:before {
 
   .side-blue, .side-green, .side-orange, .side-grey {
     width: 150px !important;
+  }
+
+  .column9 {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .button3 {
+    float: none !important;
+    display: inline-block;
   }
 }
 
