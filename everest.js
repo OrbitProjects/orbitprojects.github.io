@@ -54,7 +54,7 @@ document.getElementById("displayWeather").addEventListener("click", function() {
   if (document.getElementById("displayWeather").checked == true) {
     document.getElementById("WDeg").innerText = temp + "°";
   } else {
-    document.getElementById("WDeg").innerText = (temp * (9 / 5) + 32) + "°";
+    document.getElementById("WDeg").innerText = Math.round(temp * (9 / 5) + 32) + "°";
   }
 });
 
