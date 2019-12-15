@@ -58,7 +58,7 @@ document.getElementById("displayWeather").addEventListener("click", function() {
   }
 });
 
-document.getElementById("WDeg").innerText = Math.round(Math.random() * 30) + "°";
+document.getElementById("WDeg").innerText = temp + "°";
 var randomNumber = Math.round(Math.random() * 4);
 
 if (randomNumber == 0) {
