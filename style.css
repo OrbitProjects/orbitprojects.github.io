@@ -1,5 +1,4 @@
 /* Global */
-
 body {
   font-family: Kollektif;
 }
@@ -153,7 +152,6 @@ h3 {
 }
 
 /* Header */
-
 .header {
   position: fixed;
   top: 0px;
@@ -175,15 +173,15 @@ h3 {
 }
 
 #OrbitProjectsTitle {
-  position:relative;
+  position: relative;
   left: 20px;
   top: -2px;
 }
 
 .home {
-  font-size:25px;
+  font-size: 25px;
   position: relative;
-  top:-2px;
+  top: -2px;
   text-decoration: none;
   color: black;
   transition-duration: 300ms;
@@ -194,9 +192,9 @@ h3 {
 }
 
 .instagram {
-  font-size:25px;
+  font-size: 25px;
   position: relative;
-  top:-2px;
+  top: -2px;
   text-decoration: none;
   color: black;
   transition-duration: 300ms;
@@ -207,7 +205,6 @@ h3 {
 }
 
 /* Our Team */
-
 .our-team {
   text-align: center;
 }
@@ -239,7 +236,6 @@ h3 {
 }
 
 /* Colours */
-
 .orange {
   margin-left: 100px;
   height: 100px;
@@ -277,7 +273,7 @@ h3 {
   height: 100px;
   width: 250px;
   border-radius: 45px;
-  background-image: linear-gradient(to right, #F3845C , #FEB958);
+  background-image: linear-gradient(to right, #F3845C, #FEB958);
 }
 
 .side-grey {
@@ -309,13 +305,12 @@ h3 {
 }
 
 /* Dropdown Menu */
-
 .dropbtn {
   color: black;
   border: none;
   background: none;
   position: relative;
-  top:3.5px;
+  top: 3.5px;
   font-size: 45px;
   transition-duration: 200ms;
   outline: none;
@@ -324,7 +319,6 @@ h3 {
 .dropdownmenuicon:hover {
   color: #38DC9C;
 }
-
 
 .dropdown {
   position: relative;
@@ -336,7 +330,7 @@ h3 {
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   border-radius: 10px;
 }
@@ -358,7 +352,6 @@ h3 {
 }
 
 /* Footer */
-
 .footer {
   left: 0px;
   width: 100%;
@@ -373,7 +366,6 @@ h3 {
 }
 
 /* Other */
-
 .lh {
   line-height: 0px;
 }
@@ -406,7 +398,7 @@ h3 {
 }
 
 .homepage-button {
-  border-radius:10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
 }
 
 .title-text {
@@ -498,7 +490,6 @@ input:checked[type="checkbox"]:before {
 }
 
 /* Font */
-
 .column9 {
   text-align: right;
   width: 0%;
@@ -581,7 +572,6 @@ input:checked[type="checkbox"]:before {
 }
 
 /* Media Queries */
-
 @media screen and (max-width: 800px) {
   .column {
     width: 100%;
@@ -703,14 +693,9 @@ input:checked[type="checkbox"]:before {
     width: 150px !important;
   }
 
-  .column9 {
-    width: 100% !important;
-    text-align: center;
-  }
-
   .button3 {
     float: none !important;
-    display: inline-block;
+    display: none !important;
   }
 }
 
