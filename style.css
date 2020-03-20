@@ -21,6 +21,11 @@ h3 {
   width: 50%;
 }
 
+.column3 {
+  float: left;
+  width: 33.33%;
+}
+
 .row:after {
   content: "";
   display: table;
@@ -33,6 +38,11 @@ h3 {
 
 .containerRight {
   text-align: right;
+}
+
+.containerR {
+  text-align: center;
+  display: none;
 }
 
 .example-feature-image {
@@ -233,6 +243,10 @@ h3 {
 
 .dm .web-link:hover {
   color: #16A085;
+}
+
+.ob .web-link:hover {
+  color: #fc034a;
 }
 
 /* Colours */
@@ -577,6 +591,19 @@ input:checked[type="checkbox"]:before {
     width: 100%;
   }
 
+  .column3 {
+    width: 100%;
+  }
+
+  .column3 p {
+    position: relative;
+    top: -37.5px;
+  }
+
+  .containerR {
+    display: block;
+  }
+
   .orbit-newtab {
     text-align: center !important;
   }
@@ -592,10 +619,6 @@ input:checked[type="checkbox"]:before {
 
   .check {
     text-align: center !important;
-  }
-
-  .bb {
-    margin-bottom: 50px;
   }
 
   .line2 {
