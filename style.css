@@ -85,7 +85,7 @@ h3 {
 
 .button2 {
   font-family: Kollektif;
-  background-color: white;
+  background: white;
   color: #5084DA;
   border: 5px solid #5084DA;
   border-radius: 10px;
@@ -135,6 +135,31 @@ h3 {
   transform: scale(1.025);
 }
 
+.button4 {
+  font-family: Kollektif;
+  background-color: #bec7dc;
+  color: #5084DA;
+  border: 5px solid #5084DA;
+  border-radius: 10px;
+  outline: none;
+  font-size: 50px;
+  padding: 8px;
+  display: block;
+  transition-duration: 200ms;
+  margin: 0 auto;
+  position: relative;
+  top: -25px;
+  width: 85px;
+  text-decoration: none;
+}
+
+.button4:hover {
+  background-color: #443E3E;
+  color: #bec7dc;
+  border: 5px solid #443E3E;
+  transform: scale(1.025);
+}
+
 .marg-left {
   margin-left: 100px;
 }
@@ -172,6 +197,46 @@ h3 {
   box-shadow: 0 5px 15px -5px #00000070;
   border-radius: 0 0 30px 30px;
   z-index: 1;
+}
+
+.head {
+  background: url("img/everest.jpg") center;
+  height: 65vw;
+  border-radius: 30px;
+}
+
+.install-today {
+  background: url("img/bridge2.jpg") center;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.table {
+  width: 60vw;
+}
+
+.fa-check {
+  color: #2ECC71;
+  font-size: 25px;
+  padding-right: 10px;
+}
+
+.feature p {
+  font-size: 25px;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-family: 'Rubik', sans-serif;
+}
+
+.columnCheck {
+  float: left;
+  width: 10%;
+}
+
+.columnText {
+  float: left;
+  width: 90%;
+  text-align: left;
 }
 
 #logo {
@@ -649,6 +714,10 @@ input:checked[type="checkbox"]:before {
   .margin {
     margin-top: 50px;
     margin-bottom: 100px;
+  }
+
+  .head {
+    background: #bec7dc;
   }
 
   .button {
