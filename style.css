@@ -205,8 +205,14 @@ h3 {
   border-radius: 30px;
 }
 
+.head2 {
+  background: url("img/orbit.jpg") no-repeat center;
+  height: 50vw;
+  border-radius: 30px;
+}
+
 .install-today {
-  background: url("img/bridge2.jpg") center;
+  background: url("img/bridge.jpg") center;
   border-radius: 30px;
   overflow: hidden;
 }
@@ -788,6 +794,10 @@ input:checked[type="checkbox"]:before {
   .button3 {
     float: none !important;
     display: none !important;
+  }
+
+  .head2 {
+    height: 65vw;
   }
 }
 
