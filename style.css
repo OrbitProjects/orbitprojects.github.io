@@ -663,6 +663,10 @@ input:checked[type="checkbox"]:before {
     width: 100%;
   }
 
+  h3 {
+    font-size: 40px !important;
+  }
+
   .column3 {
     width: 100%;
   }
@@ -715,7 +719,7 @@ input:checked[type="checkbox"]:before {
 
   .margin {
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
 
   .head {
@@ -725,7 +729,8 @@ input:checked[type="checkbox"]:before {
   .button {
     display: inline-block !important;
     float: none !important;
-  }  
+    padding: 20px;
+  }
 
   .nav-space13 {
     width: 6px;
