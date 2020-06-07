@@ -310,14 +310,17 @@ h3 {
 
 .bb .web-link:hover {
   color: #31a6ff;
+  cursor: pointer;
 }
 
 .dm .web-link:hover {
   color: #16A085;
+  cursor: pointer;
 }
 
 .ob .web-link:hover {
   color: #fc034a;
+  cursor: pointer;
 }
 
 /* Colours */
@@ -442,6 +445,7 @@ h3 {
   width: 100%;
   background-color: white;
   box-shadow: 0 5px 15px -5px #00000070;
+  border-radius: 0 0 30px 30px;
   z-index: 1;
 }
 
@@ -451,9 +455,6 @@ h3 {
 }
 
 /* Other */
-.lh {
-  line-height: 0px;
-}
 
 .floatr {
   float: right;
@@ -712,11 +713,6 @@ input:checked[type="checkbox"]:before {
     line-height: 50px;
   }
 
-  .move {
-    position: relative;
-    top: 50px;
-  }
-
   .margin {
     margin-top: 50px;
     margin-bottom: 100px;
@@ -729,11 +725,7 @@ input:checked[type="checkbox"]:before {
   .button {
     display: inline-block !important;
     float: none !important;
-  }
-
-  .footer {
-    border-radius: 0px 0px 25px 25px;
-  }
+  }  
 
   .nav-space13 {
     width: 6px;
