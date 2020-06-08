@@ -831,4 +831,9 @@ input:checked[type="checkbox"]:before {
   .dropdown {
     display: none;
   }
+
+  .navButton {
+    font-size: 50px !important;
+    top: 6px;
+  }
 }
