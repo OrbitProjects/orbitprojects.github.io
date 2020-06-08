@@ -282,7 +282,19 @@ h3 {
 }
 
 .instagram:hover {
-  color: #8E44AD;
+  color: #833AB4;
+}
+
+.discord {
+  font-size: 25px;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  transition-duration: 300ms;
+}
+
+.discord:hover {
+  color: #7289da;
 }
 
 /* Our Team */
@@ -802,5 +814,21 @@ input:checked[type="checkbox"]:before {
   .button {
     position: relative;
     top: -30px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header {
+    bottom: 0px !important;
+    top: unset !important;
+    border-radius: 30px 30px 0 0;
+  }
+
+  .footer {
+    margin-bottom: 100px;
+  }
+
+  .dropdown {
+    display: none;
   }
 }
