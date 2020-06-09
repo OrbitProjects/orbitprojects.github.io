@@ -32,6 +32,10 @@ h3 {
   clear: both;
 }
 
+.row {
+  display: flex;
+}
+
 .container {
   text-align: center;
 }
@@ -817,7 +821,7 @@ input:checked[type="checkbox"]:before {
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 600px) {
   .header {
     bottom: 0px !important;
     top: unset !important;
